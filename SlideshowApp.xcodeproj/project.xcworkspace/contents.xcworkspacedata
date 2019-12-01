@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:bird.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:cat.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:monky.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:pig.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:puppy.jpg">
+   </FileRef>
+   <FileRef
       location = "self:SlideshowApp.xcodeproj">
    </FileRef>
 </Workspace>

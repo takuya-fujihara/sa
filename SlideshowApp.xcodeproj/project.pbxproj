@@ -12,6 +12,12 @@
 		230475E6238FA68800359506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230475E4238FA68800359506 /* Main.storyboard */; };
 		230475E8238FA68D00359506 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230475E7238FA68D00359506 /* Assets.xcassets */; };
 		230475EB238FA68D00359506 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230475E9238FA68D00359506 /* LaunchScreen.storyboard */; };
+		2304760B23910EB400359506 /* bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2304760623910EB400359506 /* bird.jpg */; };
+		2304760C23910EB400359506 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2304760723910EB400359506 /* cat.jpg */; };
+		2304760D23910EB400359506 /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2304760823910EB400359506 /* puppy.jpg */; };
+		2304760E23910EB400359506 /* monky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2304760923910EB400359506 /* monky.jpg */; };
+		2304760F23910EB400359506 /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2304760A23910EB400359506 /* pig.jpg */; };
+		230476112393689B00359506 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230476102393689B00359506 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		230475E7238FA68D00359506 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		230475EA238FA68D00359506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		230475EC238FA68D00359506 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2304760623910EB400359506 /* bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpg; sourceTree = "<group>"; };
+		2304760723910EB400359506 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		2304760823910EB400359506 /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
+		2304760923910EB400359506 /* monky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monky.jpg; sourceTree = "<group>"; };
+		2304760A23910EB400359506 /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pig.jpg; sourceTree = "<group>"; };
+		230476102393689B00359506 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 				230475E0238FA68800359506 /* AppDelegate.swift */,
 				230475E2238FA68800359506 /* ViewController.swift */,
 				230475E4238FA68800359506 /* Main.storyboard */,
+				2304760623910EB400359506 /* bird.jpg */,
+				2304760723910EB400359506 /* cat.jpg */,
+				2304760923910EB400359506 /* monky.jpg */,
+				2304760A23910EB400359506 /* pig.jpg */,
+				2304760823910EB400359506 /* puppy.jpg */,
 				230475E7238FA68D00359506 /* Assets.xcassets */,
 				230475E9238FA68D00359506 /* LaunchScreen.storyboard */,
 				230475EC238FA68D00359506 /* Info.plist */,
+				230476102393689B00359506 /* ResultViewController.swift */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -122,8 +140,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2304760E23910EB400359506 /* monky.jpg in Resources */,
+				2304760C23910EB400359506 /* cat.jpg in Resources */,
+				2304760B23910EB400359506 /* bird.jpg in Resources */,
 				230475EB238FA68D00359506 /* LaunchScreen.storyboard in Resources */,
 				230475E8238FA68D00359506 /* Assets.xcassets in Resources */,
+				2304760D23910EB400359506 /* puppy.jpg in Resources */,
+				2304760F23910EB400359506 /* pig.jpg in Resources */,
 				230475E6238FA68800359506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +160,7 @@
 			files = (
 				230475E3238FA68800359506 /* ViewController.swift in Sources */,
 				230475E1238FA68800359506 /* AppDelegate.swift in Sources */,
+				230476112393689B00359506 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
