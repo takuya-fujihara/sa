@@ -21,13 +21,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var backbottun: UIButton!
     //再生、停止ボタンをアウトレット接続
     @IBOutlet weak var startstopbottun: UIButton!
+    var image_count=0
+    var imageArray=["bird.jpg","cat.jpg","monky.jpg","pig.jpg","puppy.jpg"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    //はじめの画像を０とする
-    var image_count=0
-    var imageArray=["bird.jpg","cat.jpg","monky.jpg","pig.jpg","puppy.jpg"]
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+   //segueから遷移先のResultVirwControllerを取得するコード
+        let resultViewController:ResultViewController=segue.destination as! ResultViewController
+        //imageview.imageは進む、戻るボタンのif内の＝から持ってきたもの
+        resultViewController.image=imageview.image!
+    }
+   
+    
     //進むボタン
     @IBAction func next(_ sender: Any) {
         if (image_count==0){
@@ -107,11 +115,19 @@ class ViewController: UIViewController {
             //再生、停止ボタンタップ時に進む、戻るボタン非表示
             nextbottun.isEnabled=false
             backbottun.isEnabled=false
+         //ボタン名を停止とする
+            startstopbottun.setTitle("一時停止", for: .normal)
+            
         }else if self.timer != nil {
             self.timer.invalidate()
             self.timer=nil
+            //スライドショー一時停止の時さ進む、戻るボタン表示
             nextbottun.isEnabled=true
             backbottun.isEnabled=true
+            //ボタン名を再生とする
+            //startstopbottunはアウトレット接続した時に定義したもの
+            startstopbottun.setTitle("再生", for: .normal)
+            
             
         }
         

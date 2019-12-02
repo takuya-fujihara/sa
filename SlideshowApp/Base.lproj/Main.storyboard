@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5G-S0-2PY">
-                                <rect key="frame" x="20" y="367" width="51" height="280"/>
+                                <rect key="frame" x="20" y="605" width="51" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="進む"/>
                                 <connections>
@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bv-4T-8Ff">
-                                <rect key="frame" x="91" y="367" width="51" height="280"/>
+                                <rect key="frame" x="91" y="605" width="51" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -35,15 +35,15 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yd6-xU-dhz">
-                                <rect key="frame" x="162" y="367" width="193" height="280"/>
+                                <rect key="frame" x="162" y="605" width="193" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="再生/停止"/>
                                 <connections>
                                     <action selector="startstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLA-7A-6or"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puppy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uod-Eh-Svi">
-                                <rect key="frame" x="70" y="40" width="235" height="307"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uod-Eh-Svi">
+                                <rect key="frame" x="70" y="40" width="235" height="545"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Z5W-Bo-4hx" appends="YES" id="MDe-LO-TKa"/>
@@ -94,11 +94,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="w97-Zd-i9w">
-                                <rect key="frame" x="10" y="40" width="355" height="307"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="w97-Zd-i9w">
+                                <rect key="frame" x="10" y="40" width="355" height="539"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lmc-2p-f6U">
-                                <rect key="frame" x="20" y="367" width="335" height="280"/>
+                                <rect key="frame" x="20" y="599" width="335" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
@@ -129,8 +129,4 @@
             <point key="canvasLocation" x="811.59420289855075" y="116.51785714285714"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="bird.jpg" width="460.79998779296875" height="307"/>
-        <image name="puppy.jpg" width="460.79998779296875" height="307.20001220703125"/>
-    </resources>
 </document>

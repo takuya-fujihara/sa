@@ -12,10 +12,18 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var imageviewNext: UIImageView!
     
+    var image:UIImage!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //imageは上のvarで定義したもの
+        let result=image
+        //imageviewNextはviewController.swiftでアウトレット接続した時に定義したもの
+       imageviewNext.image=image
+    
     }
     
 
