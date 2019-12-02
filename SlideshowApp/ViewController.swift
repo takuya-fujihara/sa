@@ -29,6 +29,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+       if self.timer != nil {
+            self.timer.invalidate()
+            self.timer=nil
+            //スライドショー一時停止の時さ進む、戻るボタン表示
+            nextbottun.isEnabled=true
+            backbottun.isEnabled=true
+        
+         startstopbottun.setTitle("再生", for: .normal)
+        }
    //segueから遷移先のResultVirwControllerを取得するコード
         let resultViewController:ResultViewController=segue.destination as! ResultViewController
         //imageview.imageは進む、戻るボタンのif内の＝から持ってきたもの
