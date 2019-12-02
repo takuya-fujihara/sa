@@ -42,7 +42,7 @@
                                     <action selector="startstop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HLA-7A-6or"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bird.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uod-Eh-Svi">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="puppy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uod-Eh-Svi">
                                 <rect key="frame" x="70" y="40" width="235" height="307"/>
                                 <gestureRecognizers/>
                                 <connections>
@@ -130,6 +130,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bird.jpg" width="460.79998779296875" height="307"/>
+        <image name="puppy.jpg" width="460.79998779296875" height="307.20001220703125"/>
     </resources>
 </document>
